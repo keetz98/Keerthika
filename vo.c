@@ -1,18 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     int i;
-    char a;
-    char v[]={'a','e','i','o','u','A','E','I','O','U'};
-    char c[]={'b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z','B','C','D','F','G','H','J','K','L','M','N','P','Q','R','S','T','V','W','X','Y','Z'};
-    scanf("%c",&a);
-    for(i=0;i<=10;i++)
-    {
-        if(a==v[i])
+    char cha;
+    scanf("%c",&cha);
+    if(cha=='a'||cha=='e'||cha=='i'||cha=='o'||cha=='u'||cha=='A'||cha=='E'||cha=='I'||cha=='O'||cha=='U')
         {
             printf("Vowel");
         }
-        else if(a==c[i])
+        else if((cha>='a' && cha<='z') ||(cha>='A' && cha<='Z'))
         {
             printf("Consonant");
         }
@@ -20,8 +16,9 @@ int main()
         {
             printf("invalid");
         }
-        break;
         
-    }
-    return 0;
+        return 0;
 }
+
+
+  
