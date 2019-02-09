@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int i;
-    char cha;
+     char cha;
     scanf("%c",&cha);
     if(cha=='a'||cha=='e'||cha=='i'||cha=='o'||cha=='u'||cha=='A'||cha=='E'||cha=='I'||cha=='O'||cha=='U')
         {
